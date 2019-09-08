@@ -1,0 +1,6 @@
+{
+  "webClientId": "344674284807-vm0q1u2139jv286f291k54u7a9mie3ei.apps.googleusercontent.com",
+  "BACKEND_URL": "https://fnt-backend.herokuapp.com/",
+  // "BACKEND_URL": "http://10.0.2.2:8080/",
+  "SCRAPE_URL": "https://fnt-image-scraper.herokuapp.com/"
+}
