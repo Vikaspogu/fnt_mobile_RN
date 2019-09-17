@@ -3,6 +3,7 @@ import {View, ScrollView, Alert} from 'react-native';
 import {Button, Text, Avatar, Card, Divider, Icon} from 'react-native-elements';
 import {GoogleSignin} from 'react-native-google-signin';
 import {NavigationActions} from 'react-navigation';
+
 import styles from '../styles/styles';
 import {colors} from '../styles/colors';
 import settings from '../config/settings';
