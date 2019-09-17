@@ -9,9 +9,9 @@
 
     <!-- Your splash image -->
     <item
-        android:width="200dp"
-        android:height="200dp"
-        android:drawable="@drawable/green_launcher"
+        android:width="350dp"
+        android:height="250dp"
+        android:drawable="@drawable/fnt"
         android:gravity="center" />
 
 </layer-list>

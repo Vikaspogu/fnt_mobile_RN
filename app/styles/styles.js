@@ -114,7 +114,7 @@ export default StyleSheet.create({
   logo: {
     paddingBottom: 50,
     marginBottom: 40,
-    width: 250,
+    width: 350,
     height: 250,
   },
   logoContainer: {

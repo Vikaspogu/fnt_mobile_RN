@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {View, Alert} from 'react-native';
-import {SocialIcon, Text, Image} from 'react-native-elements';
+import {View, Alert, Image} from 'react-native';
+import {SocialIcon, Text} from 'react-native-elements';
 import AsyncStorage from '@react-native-community/async-storage';
 import {GoogleSignin, statusCodes} from 'react-native-google-signin';
 
