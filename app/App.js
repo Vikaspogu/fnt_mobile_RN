@@ -24,7 +24,7 @@ import Profile from './screens/profile';
 import Login from './screens/login';
 import ReportBug from './screens/reportbug';
 import AuthLoadingScreen from './screens/authloading';
-import styles from './styles/styles';
+import styles, {MIN_HEIGHT} from './styles/styles';
 import {colors} from './styles/colors';
 
 export const AuthStack = createStackNavigator(
@@ -57,6 +57,7 @@ export const TechTalkStack = createStackNavigator(
         title: 'Add Tech Event',
         headerStyle: {
           backgroundColor: colors.dark_grey,
+          height: MIN_HEIGHT,
         },
         headerTintColor: 'white',
         headerTitleStyle: {
@@ -100,6 +101,7 @@ export const SocialEventStack = createStackNavigator(
         title: 'Add Social Events',
         headerStyle: {
           backgroundColor: colors.dark_grey,
+          height: MIN_HEIGHT,
         },
         headerTintColor: 'white',
         headerTitleStyle: {
@@ -143,6 +145,7 @@ export const ProfileStack = createStackNavigator(
         title: 'Profile',
         headerStyle: {
           backgroundColor: colors.dark_grey,
+          height: MIN_HEIGHT,
         },
         headerTintColor: 'white',
         headerTitleStyle: {
@@ -158,6 +161,7 @@ export const ProfileStack = createStackNavigator(
         title: 'Report a Issue',
         headerStyle: {
           backgroundColor: colors.dark_grey,
+          height: MIN_HEIGHT,
         },
         headerTintColor: 'white',
         headerTitleStyle: {

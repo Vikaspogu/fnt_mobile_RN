@@ -13,7 +13,6 @@ export default StyleSheet.create({
   formContainer: {
     flex: 1,
     justifyContent: 'center',
-    marginTop: 30,
     padding: 20,
     backgroundColor: colors.white,
   },
